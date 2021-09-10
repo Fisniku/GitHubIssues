@@ -1,0 +1,77 @@
+body {
+  background:#f3f3f3;
+}
+
+button:focus {
+  outline: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #24292f;
+  height: 90px;
+  padding: 30px;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+input[type="text"] { 
+  outline: none;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paginator {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 90vw;
+  /* margin: 2rem 0; */
+  max-width: var(--fixed-width);
+  background: var(--clr-white);
+  border-radius: var(--radius);
+  padding: 1.5rem 2rem;
+  box-shadow: var(--dark-shadow);
+}
+.container h3 {
+  font-weight: normal;
+  text-transform: none;
+  margin-bottom: 2rem;
+}
+
+/* section */
+.section {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+
+@media screen and (min-width: 992px) {
+  .section {
+    width: 95vw;
+  }
+}
+
+
+
+
+
+
